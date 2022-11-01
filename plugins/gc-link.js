@@ -9,7 +9,7 @@ let handler = async (m, { conn, args }) => {
     let me = groupMetadata.participants.find(user => areJidsSameUser(user.id, conn.user.id))
     if (!me) throw 'Aku tidak ada di grup itu :('
     if (!me.admin) throw 'Aku bukan admin T_T'
-m.reply(`${groupMetadata.subject}\n\nhttps://chat.whatsapp.com/` + await conn.groupInviteCode(group))
+m.reply(`Nih ${name}Link Nyah\n${groupMetadata.subject}\n\nhttps://chat.whatsapp.com/` + await conn.groupInviteCode(group))
 }
 handler.help = ['linkgroup']
 handler.tags = ['group']
