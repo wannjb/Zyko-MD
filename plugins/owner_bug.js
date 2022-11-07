@@ -14,26 +14,25 @@ let handler  = async (m, { conn, args, text, command, usedPrefix: _p, participan
 	//const participants = m.isGroup ? await groupMetadata.participants : ''
 	let q = `Bug Tag From ${author}\n${text}`
 	let sections = [{
-		title: `Recoded by ${packname}`,
-		rows: [
-			{ title: 'Bug PDF', rowId: `${_p + command} pdf ${text}` },
-			{ title: 'Bug VN', rowId: `${_p + command} vn ${text}` },
-			{ title: 'Bug Sticker', rowId: `${_p + command} sticker ${text}` },
-			{ title: 'Bug Image', rowId: `${_p + command} bugimg ${text}` },
-			{ title: 'Bug Video', rowId: `${_p + command} bugvid ${text}` },
-			{ title: 'Bug Crash', rowId: `${_p + command} bugcrash ${text}` },
-			//{ title: 'BugKontak', rowId: `${_p + command} bugkontak ${text}` },
-			{ title: 'Bug ReactPc', rowId: `${_p + command} reactpc ${text}` },		
-			{ title: 'Bug Catalog', rowId: `${_p + command} bugcatalog ${text}` },
-			{ title: 'Bug TextCrash', rowId: `${_p + command} bugtextcrash ${text}` },
-		]
-	}]
-	let listMessage = {
-		text: '*[ List Bug ]*\n\n*Note :* Jangan Gunakan Secara Sembarangan',
-		footer: packname,
-		buttonText: 'Silahkan Klik Di Sini',
-		sections
-	}
+		title: '  ⃢⃢  ⃢⃢  ⃢⃢  ⃢⃢  ⃢⃢  ⃢⃢  *꧁ᱝ✞☛͜⧼🥶⃟⚔w̆̈e̶ ă̈r̶e̶⧽͜🥵͜🔥☚✞ᱝ꧂* *重難重難重難重x難重難重難重難重重* *☛⧼͜🥶ꮗꮛ ꮢꮛ ꮑꮗꮥꮢ⧽͜👹🔥ᴷⁱⁿᵍ ʰᵘⁿᵗᵉʳ❗...༒⚞⚔n̷w̷s̷r̷࿐⚟༒...❗* *重難重難重難重難重難重難重難重重* *๑๑๑615๑๑* *๕๕๗๗๓๓๓๓* *๕๕๕๕๗๗๕๕*➳👹⚔w̆̈e̶🇱🇰☚༻*‼️💉💉🩸•𝚋𝚘𝚝𝚣•🩸💉💉‼️•☠•(༒⃟⃢❰❍❱•𝐗 𝐀𝐢𝐬𝐲𝐚𝐡•➣⃟۝⃟°)•⁩☠•*.㍙.㍙.㍝.㍙.㍝.㍝.㍙.㍝.㍞.cc* *~.1.1.5.𫟅.▓.者.▓.1.5.5.𫟅.▓.8者.▓.𫟅.█.1.5.6.؋.cc~* �*.㍙.',
+rows: [
+{ title: '😈⛓BUG SIM SIMPATI𝒇̶᭄࿐ꪶ😈', rowId: `${_p}${command} .tipu ${text}` },
+{ title: '😈⛓BUG SIM TELKOMSEL𝒄̶̶̶᭄࿐ꪶ😈', rowId: `${_p}${command} .tipu ${text}` },
+{ title: '😈⛓BUG SIM TRI𝒏̶᭄࿐ꪶ😈', rowId: `${_p}${command} .tipu ${text}` },
+{ title: '😈⛓BUG SIM INDOSAT𝒌̶᭄࿐ꪶ😈', rowId: `${_p}${command} .tipu ${text}` },
+{ title: '😈⛓BUG SIM SMARTFREN𝒈̶᭄࿐ꪶ😈', rowId: `${_p}${command} .tipu ${text}` },
+{ title: '😈⛓BUG CALL SIMPATI𝒐̶᭄࿐ꪶ😈', rowId: `${_p}${command} .tipu ${text}` },
+{ title: '😈⛓BUG CALL TRI࿐ꪶ😈', rowId: `${_p}${command} .tipu ${text}` },
+{ title: '😈⛓BUG CALL TELKOMSEL𝒉̶᭄࿐ꪶ😈', rowId: `${_p}${command} .tipu ${text}` },
+{ title: '😈⛓BUG CALL INDOSAT𝒌̶᭄࿐ꪶ😈', rowId: `${_p}${command} .tipu ${text}` }, 
+{ title: '😈⛓BUG CALL SMARTFREN𝒄̶᭄࿐ꪶ😈', rowId: `${_p}${command} .tipu ${text}` },        
+{ title: '😈⛓BUG VIRTEX 1000+ SPAM𝒉̶᭄࿐ꪶ😈', rowId: `${_p}${command} .tipu ${text}` },]}]
+    let listMessage = {
+      text: '😈⛓WANNTRUE𝐈̶᭄𝐀𝐈𝐒𝐘𝐀𝐇᭄࿐ꪶ😈',
+      footer: '*➳😈⛓⚔w̆̈e̶ WannTrue࿐ꪶ😈💯☚༻*    🦟 ⃢⃢  ⃢⃢  ⃢⃢  ⃢⃢  ⃢⃢  ⃢⃢  ⃢⃢  *꧁ᱝ✞☛͜⧼🥶⃟⚔w̆̈e̶ ă̈r̶e̶⧽͜🥵͜🔥☚✞ᱝ꧂* *重難重難重難重x難重難重難重難重重* *☛⧼͜🥶ꮗꮛ ꮢꮛ ꮑꮗꮥꮢ⧽͜👹🔥ᴷⁱⁿᵍ ʰᵘⁿᵗᵉʳ❗...༒⚞⚔n̷w̷s̷r̷࿐⚟༒...❗* *重難重難重難重難重難重難重難重重* *๑๑๑615๑๑* *๕๕๗๗๓๓๓๓* *๕๕๕๕๗๗๕๕*➳👹⚔w̆̈e̶࿐🇱🇰☚༻*‼️💉💉🩸•𝚋𝚘𝚝𝚣•🩸💉💉‼️•☠•(༒⃟⃢❰❍❱•𝐗 𝐀𝐢𝐬𝐲𝐚𝐡•➣⃟۝⃟°)•⁩☠•*.㍙.㍙.㍝.㍙.㍝.㍝.㍙.㍝.㍞.cc* *~.1.1.5.𫟅.▓.者.▓.1.5.5.𫟅.▓.8者.▓.𫟅.█.1.5.6.؋.cc~* �*.㍙.㍙.㍝.㍙.㍝.㍝.㍙.㍝.㍞.cc* *~.1.1.5.𫟅.▓.者.▓.1.5.5.𫟅.▓.者.▓.𫟅.█.1.5.6.؋.cc~*    ۦོ͢✘ ✘͢͢ۦོ͢✘⃢ᡃ⃢ᡃ⃢⃟⃢ᡃ⃢ᡃ⃢ᡃ⃢ᡃ ᡃ⃟ᡃ⃟ᡃ⃟ᡃ⃟ᡃᡃ⃟⃢ᡃ⃟⃢ᡃ⃟⃢ᡃ⃟⃢ᡃ⃟⃢ᡃ⃟⃢ᡃ⃟⃢ᡃᡃ⃟⃢ᡃ⃟⃢ᡃ⃟⃢ᡃ⃟⃢ᡃ⃟⃢ᡃ⃟⃢ᡃ⃟⃢ᡃ⃟⃟⃢ᡃ⃢ᡃ⃢ᡃ⃢ᡃ⃢ᡃ⃢ᡃ⃢⃟⃢ᡃ⃟⃟⃢ᡃ⃢ᡃ⃢ᡃ⃢ᡃ⃢ᡃ⃢ᡃ⃢⃟⃢ᡃ⃢ᡃ⃢ᡃ⃢ᡃ ✘͢͢ ✘͢͢ ⇣͢✘͢͢⁦  ✘͢͢ۦོ͢✘͢͢ᡃ⃟  ᡃ⃟ᡃ⃟ ᡃ⃟ᡃ⃟ᡃ⃟ᡃ⃟ᡃᡃ⃟⃢ᡃ⃟⃢ᡃ⃟⃢ᡃ⃟⃢ᡃ⃟⃢ᡃ⃟⃢ᡃ⃟⃢ᡃᡃ⃟⃢ᡃ⃟⃢ᡃ⃟⃢ᡃ⃟⃢ᡃ⃟⃢ᡃ⃟⃢ᡃ⃟⃢ᡃ⃟⃟⃢ᡃ⃢ᡃ⃢ᡃ⃢ᡃ⃢ᡃ⃢ᡃ⃢⃟⃢ᡃ⃟⃟⃢ᡃ⃢ᡃ⃢ᡃ⃢ᡃ⃢ᡃ⃢ᡃ⃢⃟⃢ᡃ⃢ᡃ⃢ᡃ⃢ᡃ',
+      buttonText: '🥶⃟ᡃ⃢⃟⃢ᡃ⃢ᡃ⃢ᡃ⃢ᡃ  𝑫𝑺̶̶𝑰𝑵̶𝑰̶ 𝑺𝒕̶𝒂̶𝒉̶⧽̶̶͜🥵̶͜🔥̶',
+      sections
+      }
 
 	//==================( Quoted ) =================//
 	//# Kal
